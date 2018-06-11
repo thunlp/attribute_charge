@@ -31,6 +31,6 @@ After start training,  a new folder "log" will be created.There are 4 directorie
 ## Cite
 If you use the code, please cite this paper:
   
-_Zikun Hu, Xiang Li, Cunchao Tu, Zhiyuan Liu, Maosong Sun. Few-Shot Charge Prediction with Discriminative Legal Attributes. The 27th Iinternational Conference on Computational Liguisitics (COLING 2018)._
+_Zikun Hu, Xiang Li, Cunchao Tu, Zhiyuan Liu, Maosong Sun. Few-Shot Charge Prediction with Discriminative Legal Attributes. The 27th Iinternational Conference on Computational Liguisitics (COLING 2018).
 
-For more related works on network representation learning, please refer to my [homepage](http://thunlp.org/~tcc/).
+For more related works, please refer to my [homepage](http://thunlp.org/~tcc/).
