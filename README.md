@@ -1,15 +1,16 @@
 # Few-Shot Charge Prediction with Discriminative Legal Attributes
 Source code and datasets of COLING2018 paper: "Few-Shot Charge Prediction with Discriminative Legal Attributes". [(pdf)](http://thunlp.org/~tcc/publications/coling2018_attribute.pdf)
 ## Dataset
-Please download the small dataset [here](https://pan.baidu.com/s/1JQaAnx6tcClF0k7iU7r3_Q), and  put the folder "data" under this directory. It contains following files:
+Please download the dataset [here](https://thunlp.oss-cn-qingdao.aliyuncs.com/attribute_charge.zip), unzip it and you will get three folders: "data", "data_20w", "data_38w". Then put the folder "data" under this directory. It contains following files:
 
 * words.vec: Pre-trained word embeddings, each line contains a word and its embedding. 
 * attributes: The legal attributes for each charge.
-* train: data for training.
-* test: data for test.
-* valid: data for validation.
+* train: data for training from small dataset.
+* test: data for test from small dataset.
+* valid: data for validation from small dataset.
 
-If you want middle dataset and large dataset, please download them [here](https://pan.baidu.com/s/1JgyN3JhNBlylM1N3FQfNwA).
+If you want to train and test on middle dataset, please copy the files in "data_20w" folder to "data" folder.
+If you want to train and test on large dataset, please copy the files in "data_38w" folder to "data" folder.
 ## Run
 Run the following command for training our model:
 
