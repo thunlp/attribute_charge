@@ -21,6 +21,7 @@ Run the following command for training our model:
 * Tensorflow == 0.12
 * Scipy == 0.18.1
 * Numpy == 1.11.2
+* Python == 2.7
 
 ## Log
 After start training,  a new folder "log" will be created.There are 4 directories in it:
